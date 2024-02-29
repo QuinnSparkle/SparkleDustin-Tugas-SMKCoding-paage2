@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+* {
+  font-family: Poppins;
+}
+
+body {
+  overflow: scroll;
+}
+
+.section-top {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.section-top .card-main {
+  width: 100%;
+  height: 500px;
+  background-color: hsl(38, 100%, 92%);
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 160px;
+}
+
+.section-top .card-main .underline {
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  margin-top: -35px;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 97px;
+  background-color: #fb982d;
+}
+.section-top .card-main .button {
+  width: 150px;
+  background-color: rgb(43, 17, 0);
+  height: 45px;
+  border-radius: 32px;
+}
+.section-top .card-main .button .text-button {
+  width: 150px;
+  height: px;
+  color: gold;
+  padding-top: 11px;
+  margin-left: 25px;
+  font-size: 13px;
+  position: absolute;
+}
+.section-top .card-main .card {
+  width: 25rem;
+  z-index: 999;
+  margin-top: -70px;
+  margin-left: 20%;
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: -5px 5px 30px;
+}
+.section-top .card-main .card img {
+  width: 24.5rem;
+  height: 486px;
+  border-radius: 20px;
+}
+.section-top .card-main .card img .card-rating {
+  width: 100%;
+  height: 30px;
+  border-width: 3px;
+  border-radius: 30px;
+  border-color: #c7c7c7;
+  background-color: #ffffff;
+}
+
+.section-top .card-main .card-main-text {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 80px;
+}
+
+.section-middle {
+  width: 100%;
+  height: 310px;
+}
+
+.section-bottom {
+  width: 100%;
+  height: 500px;
+}
+.section-bottom .underline {
+  position: absolute;
+  width: 107px;
+  height: 4px;
+  margin-top: 39px;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 25.4%;
+  background-color: #fb982d;
+}
+.section-bottom .section-bottom-text {
+  width: 90%;
+  height: 80px;
+  font-family: Poppins;
+  font-size: 30px;
+  margin-left: 14%;
+  font-weight: 900;
+}
+.section-bottom .card-main-bottom {
+  width: 100%;
+  height: 500px;
+}
+.section-bottom .card-main-bottom .card-bottom {
+  width: 17%;
+  z-index: 999;
+  margin-top: 0px;
+  margin-left: 20%;
+  height: 320px;
+  display: flex;
+  position: absolute;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: -1px 1px 10px;
+}
+.section-bottom .card-main-bottom .card-bottom .card-body-text2 {
+  width: 60%;
+  height: 30;
+  font-size: 13px;
+  margin-top: 85%;
+  margin-left: -31%;
+  font-weight: 90;
+}
+.section-bottom .card-main-bottom .card-bottom .card-body-text2 .card-price {
+  width: 50%;
+  height: 100px;
+  font-size: 20px;
+  padding-left: 212px;
+  font-weight: 1000;
+  margin-top: -33%;
+}
+.section-bottom .card-main-bottom .card-bottom .card-body-text {
+  width: 100%;
+  height: 20;
+  font-size: 20px;
+  margin-top: 76%;
+  margin-left: 10%;
+  font-weight: 1000;
+}
+.section-bottom .card-main-bottom .card-bottom .cart-icon {
+  width: 35px;
+  height: 35px;
+  background-color: #fb982d;
+  margin-left: 110%;
+  margin-top: -15%;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.section-bottom .card-main-bottom .card-bottom .cart-icon img {
+  margin-left: -10%;
+  width: 21px;
+  height: 21px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.section-bottom .card-main-bottom .card-bottom img {
+  width: 85%;
+  margin-top: 8%;
+  margin-left: 8%;
+  z-index: 999;
+  height: 200px;
+  position: absolute;
+  border-radius: 20px;
+}
+.section-bottom .card-main-bottom .card-bottom img .card-rating {
+  width: 40%;
+  height: 50px;
+  background-color: #fb982d;
+}/*# sourceMappingURL=stylee.css.map */
